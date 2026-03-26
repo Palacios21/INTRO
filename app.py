@@ -3,9 +3,9 @@ from PIL import Image
 
 st.title(" Mi Primera App!!")
 
-st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales.")
+st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales y jugar con ellas.")
 st.write("Facilmente puedo realizar backend y frontend.")
-image = Image.open('Interfaces Mult2.png')
+image = Image.open('moda-futurista.jpeg')
 st.image(image, caption='Interfaces multimodales')
 
 
